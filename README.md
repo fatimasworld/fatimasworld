@@ -1,6 +1,13 @@
-## Hi there 👋
+## Hi there 
+name = input("Enter your name: ")
+bday = input("Enter your birthday (DD-MM): ")
+today=datetime.date.today().strftime("%d-%m")
+if today == bday:
+    print(f"Happy Birthday, {name}! ")
+else:
+    print(f"Hi {name}, not your bday today ")
 
-<!--
+
 **fatimasworld/fatimasworld** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
